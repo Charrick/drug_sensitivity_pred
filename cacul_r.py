@@ -32,4 +32,8 @@ class cacul_r(object):
         # 计算皮尔逊相关系数
         den = sqrt((sumofx2 - sum1 ** 2 / n) * (sumofy2 - sum2 ** 2 / n))
         # print num, den
-        return num / den
+		if den == 0:
+			pcc = 0
+		else:
+			pcc = num/den
+        return pcc
