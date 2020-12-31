@@ -18,3 +18,9 @@ The ‘data’ folder contains the data files that the scripts depends on.
 nor_feature.csv - Normalized feature dataset.
 
 relation.csv - Connection relationship table between genes and pathways
+
+# Citations
+
+If you use this project for your research, or incorporate our learning algorithms in your work, please cite:
+
+Deng, L. , Cai, Y. , Zhang, W. , Yang, W. , & Liu, H. . (2020). Pathway-guided deep neural network toward interpretable and predictive modeling of drug sensitivity. Journal of Chemical Information and Modeling, XXXX(XXX).
